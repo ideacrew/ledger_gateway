@@ -18,7 +18,9 @@ gem 'dry-struct',           '~> 1.3'
 gem 'dry-transaction'
 gem 'dry-types',            '~> 1.4'
 gem 'dry-validation',       '~> 1.6'
-gem 'mongoid',             '~> 7.2.1'
+gem 'mongoid',              '~> 7.2.1'
+gem 'qbo_api',              '~> 2.0'
+gem "typhoeus",             '~> 1.4'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
